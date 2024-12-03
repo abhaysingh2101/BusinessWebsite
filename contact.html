@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.min.css"/>
+      <Link rel="stylesheet " href="css/style.css">
+        </head>
+        <body>
+            <div class="container">
+                <header class="main-header">
+                    <div class="logo-holder">
+                        <a href="#">
+                            <img src="img/htmlimg.png" alt="Business">
+                        </a> 
+                    </div>
+
+
+                    <div class="search-holder">
+                        <form method="get" action="" >
+                            <input type="search" name="search" placeholder="Search for..">
+                            <button type="submit">Search</button>
+                        </form>
+                    </div>
+                </header>
+
+
+                <nav class="main-menu">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Services</a>
+                        <ul class="drop">
+                            <li><a href="#">Service one</a></li>
+                            <li><a href="#">Service two</a></li>
+                            <li><a href="#">Service three</a></li>
+                        </ul>
+                        </li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contacts</a></li>
+                    </ul>
+                </nav>
+                <!--Map-->
+                <section class="gmap">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3549.400553310003!2d78.0421422!3d27.175144799999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39747121d702ff6d%3A0xdd2ae4803f767dde!2sTaj%20Mahal!5e0!3m2!1sen!2sin!4v1723802445805!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </section>
+                <section class="contact-details">
+                    <div class="contact-form">
+                        <form action="" method="get">
+                            <label for="c-name">
+                                Name:
+                                <input type="text" placeholder="Name" name="c-name" id="c-name">
+                            </label>
+                            
+                            <label for="c-email">
+                                Email:
+                                <input type="email" placeholder="Email" name="c-email" id="c-email">
+                            </label>
+                            <label for="c-phone">
+                                Phone No:
+                                <input type="tel" placeholder="Phone No" name="c-phone" id="c-phone">
+                            </label>
+                            <label for="c-message">
+                                Message:
+                                <textarea name="c-message" id="c-name" cols="30" rows="5"></textarea>
+                            </label>
+                            <button type="submit">Send message</button>
+                        </form>
+                    </div>
+                    <div class="time-contact"> 
+                        <h3>Timings:</h3>
+                        <p><strong>Mon-Sat</strong> <time datetime="09:00">09:00AM</time>-<time datetime="17:00">17:00PM</time>
+                        </p>
+                        <hr>
+                        <h3>Contact:</h3>
+                        <p><a href="mailto.someone@mails.com">mailto.someone@mails.com</a></p>
+                
+                    </div>
+
+                </section>
+                
+<section class="footer-holder">
+    <div class="footer-widget">
+        <a href="#"><img src="img/htmlimg.png" alt="Company"></a>
+        <h3>Address</h3>
+        <address>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, hic. Praese conts debitis?</address>
+
+    </div>
+    <div class="footer-widget">
+        <h4>Sitemap</h4>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contacts</a></li>
+        
+        </ul>
+    </div>
+    <div class="footer-widget">
+        <h4>Sitemap</h4>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contacts</a></li>
+        
+        </ul>
+    </div>
+    <div class="footer-widget">
+        <h4>Sitemap</h4>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contacts</a></li>
+        
+        </ul>
+    </div>
+</section>
+<footer class="site-footer">
+    <p><small>Copyright &copy; 2025</small></p>
+</footer>
+                
+            </div>
+            <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js"></script>
+<script>
+$(document).ready(function() {
+    $('#adaptive').lightSlider({
+        adaptiveHeight:true,
+        item:1,
+        slideMargin:0,
+        loop:true
+    });
+});</script>
+        </body>
+    </html>
